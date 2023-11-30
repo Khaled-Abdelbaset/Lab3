@@ -66,6 +66,7 @@ form input[type="submit"]:hover  {
   font-size: 14px;
   text-decoration: none;
   padding: 10px 0;
+  text-decoration: none;
 }
 .container a:hover {
   font-weight: bold;

@@ -32,6 +32,7 @@ body {
   display: block;
   color: #cbcbcb;
   margin: 5px;
+  text-decoration: none;
 }
 
 .list li a:hover,
@@ -42,6 +43,7 @@ li.active a {
 li.active a {
   font-weight: bold;
   font-size: 16px;
+  text-decoration: none;
 }
 
 li.out {
@@ -51,6 +53,7 @@ li.out {
 }
 li.out a {
   display: none;
+  text-decoration: none;
 }
 li.out:hover a {
   display: inline;

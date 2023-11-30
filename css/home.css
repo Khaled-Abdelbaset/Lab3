@@ -33,6 +33,7 @@
   margin: 5px;
   padding: 10px;
   border-radius: 5px;
+  text-decoration: none;
 }
 
 .list li a:hover,
@@ -43,6 +44,7 @@ li.active a {
 }
 li.active a {
   font-weight: bold;
+  text-decoration: none;
 }
 
 hr {
@@ -54,7 +56,6 @@ li.out a:hover {
   background-color: #ff0000c3;
   color: #FFF;
 }
-
 
 .page {
   min-height: calc(100% - 25px);
