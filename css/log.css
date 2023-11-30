@@ -1,0 +1,83 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: url(../pics/1.jpg) repeat fixed;
+}
+
+.container {
+  width: 300px;
+  padding: 20px;
+  margin: 60px auto;
+  text-align: center;
+  border-radius: 5%;
+  border: 1px solid #b366aebb;
+  background-color: #cbcbcb;
+  box-shadow: 0 0 10px #395A65;
+}
+
+.user,
+.pass,
+.mail {
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+.inputStyle {
+  display: block;
+  width: 100%;
+  padding: 5px;
+  color: #395A65;
+  border: none;
+  border-bottom: 1px solid #b365aec9;
+  background-color: transparent;
+}
+
+.inputStyle:focus {
+  outline: none;
+  border-bottom: 1px solid #395A65;
+}
+
+.inputStyle::placeholder {
+  font-size: 13px;
+}
+input[type="submit"] {
+  width: 100px;
+  padding: 8px;
+  margin: 10px auto;
+  color: #fbf2ff;
+  border: none;
+  background-color: #B366AE;
+  border-radius: 10px;
+  font-weight: bold;
+  font-family: 'Share Tech Mono', monospace;
+}
+
+form input[type="submit"]:hover  {
+  cursor: pointer;
+  background-color: #395a65;
+}
+
+.container a {
+  display: block;
+  color: #6b3d68;
+  font-size: 14px;
+  text-decoration: none;
+  padding: 10px 0;
+}
+.container a:hover {
+  font-weight: bold;
+  color: #395A65;
+}
+
+.material-symbols-outlined.logout {
+  vertical-align: middle;
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' -25,
+  'opsz' 16;
+  color: #cbcbcb;
+}

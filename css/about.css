@@ -1,14 +1,8 @@
-body {
-  /* background-image: url(../pics/1.jpg); */
-}
-
 .container {
   min-height: calc(100% - 60px);
   text-align: center;
 }
-.about {
-  text-align: center;
-}
+
 .about h1 {
   padding: 20px;
   font-size: 45px;
@@ -27,12 +21,12 @@ body {
 
 
 .partners h3{
+  color: #6b3d68;
   padding-top: 35px;
   font-size: 30px;
   font-weight: 100;
-  font-family: 'Vina Sans', sans-serif;
-  color: #6b3d68;
   letter-spacing: 5px;
+  font-family: 'Vina Sans', sans-serif;
 }
 .partners .image {
   display: inline-block;

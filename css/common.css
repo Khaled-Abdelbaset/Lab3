@@ -12,7 +12,7 @@ body {
   height: 35px;
   position: relative;
   background-color: #385A64;
-  border-bottom: 2px solid #8b00b58a;
+  border-bottom: 1px solid #ff00eea8;
   padding:5px ;
 }
 
@@ -35,12 +35,27 @@ body {
 
 .list li a:hover,
 li.active a {
-  color: #a400d5;
+  color: #ff00ef8f;
   cursor: pointer;
 }
-
 li.active a {
   font-weight: bold;
+}
+
+li.out {
+  display: inline;
+  cursor: pointer;
+  color: #ff0000c3;
+}
+li.out a {
+  display: none;
+}
+li.out:hover a {
+  display: inline;
+  font-weight: bold;
+}
+li.out a:hover {
+  color: #ff0000c3;
 }
 
 .search {
@@ -70,6 +85,15 @@ li.active a {
   padding: 5px;
   font-size: 14px;
   text-align: center;
-  color: #9d9d9d;
+  color: #b1b1b1;
   background-color: #385A64;
+}
+
+.material-symbols-outlined.logout {
+  vertical-align: middle;
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 300,
+  'GRAD' -25,
+  'opsz' 10;
 }

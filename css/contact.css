@@ -1,11 +1,8 @@
-body {
-  /* background-image: url(../pics/1.jpg); */
-}
-
 .container {
   min-height: calc(100% - 60px);
   text-align: center;
 }
+
 .contact h1 {
   padding: 20px;
   font-size: 45px;
@@ -22,21 +19,28 @@ body {
   color: #6b3d68b5;
 }
 
-.methods > div {
-  display: inline-block;
-  /* border: 1px solid #6b3d68b5; */
-  width: 250px;
-  height: 200px;
-  margin: 0 25px;
+
+.methods {
+  margin-top: 40px;
 }
 
+.methods > div {
+  display: inline-block; 
+  width: 250px;
+}
 .methods h2{
-  display: block;
   color: #810f7a;
-  margin: 15px 0;
+  margin-bottom: 15px;
 }
-.methods .call  a{
-  display: block;
-  padding: 5px;
+
+.methods > div p {
+  margin-bottom: 10px;
+  color: #6b3d68;
 }
+.methods .call a {
+  color: #6b3d68;
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+
 
