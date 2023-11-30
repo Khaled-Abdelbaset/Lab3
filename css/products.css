@@ -1,0 +1,50 @@
+
+.container {
+  margin: 50px 50px 0;
+  text-align: center;
+}
+
+.product {
+  width: 300px;
+  margin: 0 30px 50px;
+  display: inline-block;
+}
+.product:hover{
+  box-shadow: 0 8px 8px #0000004d;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.product .image img{
+  width: 300px;
+  height: 200px;
+  border-radius: 10px 10px 0 0;
+}
+
+.product .info{
+  height: 200px;
+  padding: 15px;
+  text-align: center;
+  background-color: #0a2f3b;
+  border-radius:  0 0 10px 10px;
+  border-top: 2px solid #95008bcb;
+}
+
+.info h4 {
+  color: #a9a9a9;
+  padding: 15px 0;
+}
+
+.info span {
+  display: block;
+  color: #a400d5;
+  font-size: 22px;
+  padding: 10px 0;
+  font-weight: bold;
+}
+
+.info p {
+  display: inline-block;
+  color: #9495A3;
+  padding: 15px 0;
+}
+

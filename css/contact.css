@@ -1,0 +1,42 @@
+body {
+  /* background-image: url(../pics/1.jpg); */
+}
+
+.container {
+  min-height: calc(100% - 60px);
+  text-align: center;
+}
+.contact h1 {
+  padding: 20px;
+  font-size: 45px;
+  font-family: 'Pacifico', cursive;
+  color: #6b3d68;
+  letter-spacing: 15px;
+}
+
+.contact p {
+  width: 55%;
+  margin: 20px auto;
+  font-size: 25px;
+  font-family: 'Hedvig Letters Serif', serif;
+  color: #6b3d68b5;
+}
+
+.methods > div {
+  display: inline-block;
+  /* border: 1px solid #6b3d68b5; */
+  width: 250px;
+  height: 200px;
+  margin: 0 25px;
+}
+
+.methods h2{
+  display: block;
+  color: #810f7a;
+  margin: 15px 0;
+}
+.methods .call  a{
+  display: block;
+  padding: 5px;
+}
+

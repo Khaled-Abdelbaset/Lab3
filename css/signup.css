@@ -8,7 +8,7 @@ body {
 }
 
 .container {
-  width: 250px;
+  width: 300px;
   margin: 30px auto;
   padding: 20px;
   background-color: #cbcbcb;
@@ -45,19 +45,19 @@ body {
 }
 
 .inputStyle::placeholder {
-  font-size: 12px;
+  font-size: 14px;
 }
 
 .container input[type="submit"] {
   display: block;
-  margin: 15px auto 0;
-  width: 80px;
+  margin: 15px auto;
+  padding: 10px;
+  width: 100px;
   font-weight: bold;
   color: #fbf2ff;
   border: none;
   background-color: #B366AE;
   border-radius: 10px;
-  height: 20px;
   font-family: 'Share Tech Mono', monospace;
 }
 
