@@ -2,6 +2,7 @@
   <head>
     <title>Tech Store</title>
     <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/common.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Ubuntu:wght@700&display=swap" rel="stylesheet">
@@ -10,21 +11,24 @@
 
   <body>
     <div class="menu">
-      <span class="material-symbols-outlined arrow">double_arrow</span>
       <ul class="list">
-        <li class="active"><a href="home.html">Home</a></li>
+        <li class="out"><span class="material-symbols-outlined logout">logout</span><a href="index.html">Log Out </a>
+        <li   class="active"><a href="home.html">Home</a></li>
         <li><a href="products.html">Products</a></li>
         <li><a href="about.html">About Us</a></li>
         <li><a href="contact.html">Contact Us</a></li>
-        <hr>
-        <li class="out"><a href="index.html">Log Out <span class="material-symbols-outlined logout">logout</span></a></li>
       </ul>
+      <div class="search">
+        <input type="search" placeholder="search">
+      </div>
     </div>
-    <div class="page">
-      <h1><img src="pics/home.png"> Your Tech Store</h1>
-      <div class="content">
-        <p>Welcome To Our Store</p>
-        <p>Find Every Tech Thing in one place</p>
+    <div class="container">
+      <div class="page">
+        <h1><img src="pics/home.png"> Your Tech Store</h1>
+        <div class="content">
+          <p>Welcome To Our Store</p>
+          <p>Find Every Tech Thing in one place</p>
+        </div>
       </div>
     </div>
     <div class="footer">All Rights Reserved &copy; ITI</div>

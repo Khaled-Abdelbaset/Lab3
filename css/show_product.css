@@ -1,6 +1,6 @@
 h1 {
   padding: 15px;
-  color: #6B3D68;
+  color: var(--textColor);
   text-align: left;
   margin: 0;
 }

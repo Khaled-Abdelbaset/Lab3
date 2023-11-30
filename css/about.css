@@ -1,5 +1,5 @@
 .partners h3{
-  color: #6b3d68;
+  color: var(--textColor);
   padding-top: 35px;
   font-size: 30px;
   font-weight: 100;
@@ -14,5 +14,5 @@
   width: 250px;
   height: 150px;
   border-radius: 50%;
-  border: 2px solid #8b00b58a;
+  border: 2px solid var(--textColor);
 }

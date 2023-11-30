@@ -2,6 +2,8 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  --textColor: #6b3d68;
+  --secondColor: #385A64;
 }
 
 body {
@@ -12,7 +14,7 @@ body {
 .menu {
   height: 35px;
   position: relative;
-  background-color: #385A64;
+  background-color: var(--secondColor);
   border-bottom: 1px solid #ff00eea8;
   padding:5px ;
 }
@@ -84,26 +86,30 @@ li.out a:hover {
   color: #a400d5;
 }
 
-/* Content */
+/* Content=> About Us, Contact Us */
 .container {
   min-height: calc(100% - 60px);
   text-align: center;
 }
 
-.content h1 {
+
+.about.content h1,
+.contact.content h1 {
   padding: 20px;
   font-size: 45px;
   font-family: 'Pacifico', cursive;
-  color: #6b3d68;
+  color: var(--textColor);
   letter-spacing: 15px;
 }
 
-.content p {
+.about.content p,
+.contact.content p {
   width: 55%;
   margin: 20px auto;
   font-size: 25px;
   font-family: 'Hedvig Letters Serif', serif;
-  color: #6b3d68b5;
+  color: var(--textColor);
+  opacity: .6;
 }
 
 
@@ -115,7 +121,7 @@ li.out a:hover {
   font-size: 14px;
   text-align: center;
   color: #b1b1b1;
-  background-color: #385A64;
+  background-color: var(--secondColor);
 }
 
 .material-symbols-outlined.logout {

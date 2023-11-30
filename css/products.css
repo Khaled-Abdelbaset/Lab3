@@ -1,12 +1,7 @@
-
-.container {
-  text-align: center;
-}
-
 h1 {
   margin: 50px auto;
   font-family: 'Hedvig Letters Serif', serif;
-  color: #6b3d68;
+  color: var(--textColor);
   letter-spacing: 3px;
 }
 .product {

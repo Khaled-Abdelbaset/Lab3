@@ -1,70 +1,11 @@
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-
-.menu .arrow{
-  position: fixed;
-  top: calc(50% - 12px);
-}
-
-.menu:hover .list{
-  display: block;
-  top: 0;
-}
-
-.list {
-  position: fixed;
-  display: none;
-  height: 100%;
-  background-color: #385A64;
-  width: 200px;
-}
-
-.list li{
-  list-style: none;
-  text-align: center;
-}
-
-.list li a{
-  display: block;
-  color: #cbcbcb;
-  margin: 5px;
-  padding: 10px;
-  border-radius: 5px;
-  text-decoration: none;
-}
-
-.list li a:hover,
-li.active a {
-  color: #6c2e68;
-  background-color: #9f9f9fc2;
-  cursor: pointer;
-}
-li.active a {
-  font-weight: bold;
-  text-decoration: none;
-}
-
-hr {
-  border-bottom-style: none;
-  border-color: #cbcbcb;
-}
-
-li.out a:hover {
-  background-color: #ff0000c3;
-  color: #FFF;
-}
-
 .page {
-  min-height: calc(100% - 25px);
   background-color: #cbcbcb;
 }
 
 .page h1{
-  padding: 25px;
-  color: #6B3D68;
+  text-align: left;
+  padding: 35px;
+  color: var(--textColor);
 }
 
 .page .content{
@@ -75,39 +16,12 @@ li.out a:hover {
 .page .content p:nth-child(1) {
   font-size: 65px;
   font-family: 'Pacifico', cursive;
-  color: #6b3d68;
+  color: var(--textColor);
 }
 .page .content p:nth-child(2) {
   font-size: 25px;
   font-family: 'Hedvig Letters Serif', serif;
-  color: #6b3d6892;
+  color: var(--textColor);
+  opacity: .5;
 }
 
-.footer {
-  width: 100%;
-  height: 25px;
-  padding: 5px;
-  font-size: 14px;
-  text-align: center;
-  color: #b1b1b1;
-  background-color: #385A64;
-}
-
-.material-symbols-outlined.arrow {
-  color: #9d9d9d;
-  font-variation-settings:
-  'FILL' 0,
-  'wght' 400,
-  'GRAD' 0,
-  'opsz' 24
-}
-
-.material-symbols-outlined.logout {
-  vertical-align: middle;
-  font-variation-settings:
-  'FILL' 0,
-  'wght' 300,
-  'GRAD' -25,
-  'opsz' 14;
-  color: #cbcbcb;
-}
