@@ -1,0 +1,25 @@
+h1 {
+  padding: 15px;
+  color: #6B3D68;
+  text-align: left;
+  margin: 0;
+}
+
+.product {
+  margin-top: 20px;
+}
+.product:hover {
+  box-shadow: none;
+  cursor: auto;
+}
+.product .order img {
+  vertical-align: middle;
+}
+.product .order a {
+  padding: 10px;
+  background-color: #29A71A;
+  border-radius: 10px;
+  margin-top: 5px;
+  display: block;
+  color: #FFF;
+}

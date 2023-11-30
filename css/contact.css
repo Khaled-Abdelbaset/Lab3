@@ -1,25 +1,3 @@
-.container {
-  min-height: calc(100% - 60px);
-  text-align: center;
-}
-
-.contact h1 {
-  padding: 20px;
-  font-size: 45px;
-  font-family: 'Pacifico', cursive;
-  color: #6b3d68;
-  letter-spacing: 15px;
-}
-
-.contact p {
-  width: 55%;
-  margin: 20px auto;
-  font-size: 25px;
-  font-family: 'Hedvig Letters Serif', serif;
-  color: #6b3d68b5;
-}
-
-
 .methods {
   margin-top: 40px;
 }
@@ -42,5 +20,10 @@
   text-decoration: none;
   margin-bottom: 10px;
 }
+.methods .call a:hover {
+  color: #385A64;
+  font-weight: bold;
+}
+
 
 
